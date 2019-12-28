@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Online Exam</title>
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/style.css"> 
+        
+    </head>
+    
+    <body>
+        
+        <!-- start header -->
+        
+        <div class="header"> 
+            <form action="exam.html" class="rightgroup">
+                <input type="text" id="mail" placeholder="Email or phone" class = "in"> &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="password" id="pass" placeholder="Password"  class = "in">
+                <img src="photos/images.png" id="img" class="img">&nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="submit" value="Log In" class="myButton" id ="butt">
+            </form>
+            
+            <div class="logo"><span class="span1">OE</span>ONL<span class="span2">INE</span> EX<span class="span2">AM</span></div>
+        </div>
+        
+        <!-- end header -->
+        
+        
+        
+        <!-- start body -->
+        
+        <div class="body"> 
+            <fieldset>
+                <legend>Sign Up Form</legend>
+                <form action="exam.html">
+                    <input type="text" placeholder="First Name" class= "n1" id="fname">
+                    &nbsp; &nbsp;
+                    <input type="text" placeholder="Last Name" class= "n1" id="lname"><br><br>
+                    <input type="text" placeholder="Mobile number or email address" class= "n2" id="mob"><br><br>
+                    <input type="password" placeholder="New password" minlength="8" class= "n2" id="pass1">
+                    <img src="photos/images.png" class="img" id="img1">
+                    <p class= "pwords">Birthday</p>
+                    <select name="Day" style="height:30px; width:55px">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                    <select name="Month" class="opt">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <select name="Year" class="opt">
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                    </select>
+                    <p class= "pwords">Gender</p>
+                    <input type="radio" name="gender" value="Female">Female
+                    <input type="radio" name="gender" value="Male">Male
+                    <br><br>
+                    <input type="submit" value="Sign Up" class="myButton" id="signupButton">
+                   
+                </form>
+            </fieldset>
+            
+            
+            <div class="image">
+                <img src="photos/onlineexam.jpg">
+            </div>
+        </div>
+        
+        <!-- end body -->
+    <script src="js/main.js"></script>
+    </body>
+</html>

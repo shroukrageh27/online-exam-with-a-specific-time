@@ -1,0 +1,211 @@
+/********************************************************** index.html style *******************************************************************************/
+
+/*start header */
+
+.header {
+    height:100px;
+    background-color:rgb(40,40,40);
+}
+
+.header .rightgroup {
+    position:relative;
+    float:right;
+    display:inline;
+    padding:20px;
+}
+
+.in {
+    height:20px;
+    width:200px;
+    border :rgb(0,102,102) 2px solid;
+}
+
+.myButton {
+    width:100px;
+    height:27px;
+    border-radius:30px;
+    border: rgb(0,102,102) 2px solid;
+    color: rgb(0,102,102);
+    font-family:cursive;
+    font-weight:bold;
+    text-align:center
+}
+
+.header form .img {
+    height:12px;
+    width:15px;
+    border-radius:10px;
+    border: rgb(0,102,102) 2px solid;
+    color: rgb(0,102,102);
+}
+
+.header .logo {
+    float:left;
+    padding:20px;
+    color:white;
+    font-weight:bold;
+    font-family:cursive;
+    font-size:20px;
+}
+
+.header .logo .span1 {
+    margin-right:13px;
+    background-color:rgb(0,102,102);
+    width:40px;
+    height:30px;
+    border-radius:50px;
+    display:inline-block;
+    text-align:center;
+    
+}
+
+.header .logo .span2 {
+    color:rgb(0,102,102);
+}
+
+/* end header */
+
+
+/*start body */
+
+.body {
+    margin:100px;
+}
+
+.body fieldset {
+    position:relative;
+    float:right;
+    display:inline;
+    padding:20px;
+    border: rgb(0,102,102) 2px solid;
+    
+}
+
+.body fieldset form input {
+    border: rgb(0,102,102) 2px solid;
+}
+
+.n1 {
+    height:30px;
+    width:180px
+}
+.n2 {
+    height:30px;
+    width:380px
+}
+
+.body fieldset form .img {
+    height:12px;
+    width:15px;
+    border-radius:10px;
+    border: rgb(0,102,102) 2px solid;
+    color: rgb(0,102,102);
+}
+.pwords {
+    font-size:16px;
+    font-weight:bold
+}
+
+.opt {
+    height:30px;
+    width:75px
+}
+
+.body .image img{
+    border-radius:100px;
+    float:left;
+    display: inline-block;
+}
+
+/*end body*/
+
+
+/*********************************************************************************************************************************************************/
+
+/********************************************************** exam.html style *******************************************************************************/
+
+
+/* Start header */
+
+.header .rightgroup .clock {
+    color:white;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    height:35px;
+    width:250px;
+    border: rgb(0,102,102) 2px solid;
+    border-radius:100px;
+    text-align:center;
+    float:left;
+    margin-right:70px;
+    
+}
+
+.header .rightgroup .changepass {
+    color: white;
+    font-weight:bold;
+    
+}
+
+/*end header*/
+
+
+/*start body */
+
+.exam  {
+    width:600px;
+    height:800px;
+    margin: 50px auto;
+    background-color:rgb(40,40,40);
+    border: white 2px solid;
+    
+}
+
+.exam h2{
+    font-family:cursive;
+    font-size:20px;
+    padding:30px;
+    color:white;
+}
+
+.exam .line {
+    height:2px;
+    width:400px;
+    background-color:white;
+    margin-left:30px;
+}
+
+.exam form label {
+    font-family:cursive;
+    font-size:16px;
+    padding:30px;
+    color:white;
+}
+
+.exam form label span {
+    margin-right:10px;
+    background-color:rgb(0,102,102);
+    color:white;
+    width:30px;
+    height:20px;
+    border-radius:50px;
+    display:inline-block;
+    text-align:center;
+}
+
+.exam form input {
+    margin-top:10px;
+    margin-left:30px;
+    
+    
+    
+}
+#sp {
+    color:white;
+    font-family:cursive;
+    font-weight:bold;
+}
+/*end body*/
+
+/*********************************************************************************************************************************************************/
