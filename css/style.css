@@ -127,7 +127,7 @@
 
 /* Start header */
 
-.header .rightgroup .clock {
+.header .rightgroup .examClock {
     color:white;
     font-family:cursive;
     font-weight:bold;
@@ -138,9 +138,11 @@
     border-radius:100px;
     text-align:center;
     float:left;
-    margin-right:70px;
+    margin-right:40px;
+    margin-top:5px;
     
 }
+
 
 .header .rightgroup .changepass {
     color: white;
@@ -162,6 +164,21 @@
     
 }
 
+.exam .examTime {
+    color:white;
+    font-family:cursive;
+    font-weight:bold;
+    font-size:16px;
+    height:50px;
+    width:300px;
+    border: rgb(0,102,102) 2px solid;
+    text-align:center;
+    margin-right:70px;
+    margin-top:30px;
+    float:right;
+    
+}
+
 .exam h2{
     font-family:cursive;
     font-size:20px;
@@ -171,7 +188,7 @@
 
 .exam .line {
     height:2px;
-    width:400px;
+    width:530px;
     background-color:white;
     margin-left:30px;
 }

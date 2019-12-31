@@ -7,36 +7,37 @@
 
 
 
-var nowww = new Date(),
-Sec = nowww.getSeconds();
+var minutesCount=0,
+    secondsCount=0;
 
 function showTime() {
-    var now = new Date(),
-    hours = now.getHours(),
-    minutes = now.getMinutes(),
-    seconds = now.getSeconds();
-    
-    if(hours < 10) {
-        hours = "0" + hours;
-    }
-    if(minutes < 10) {
-        minutes = "0" + minutes;
-    }
-    if(seconds < 10) {
-        seconds = "0" + seconds;
+    secondsCount++;
+    if(secondsCount == 60){
+        secondsCount=0;
+        minutesCount++;
     }
     
-    document.getElementById("clockk").textContent = hours + ":" + minutes + ":" + seconds;
-    if(seconds == (Sec + 10) || seconds == ((Sec + 10)-60)) {
+    if(secondsCount <10){
+        secondsCount = "0"+secondsCount;
+        
+    }
+    
+    
+    document.getElementById("examClock").textContent = "00" + ":" + "0" + minutesCount +":" + secondsCount;
+    
+    if(minutesCount == 5){
+        document.getElementById("examClock").textContent = "Time is over ... ";
+        document.getElementById("getResult").style.display="none";
         clearInterval(time);
-        document.getElementById("clockk").textContent = "time is over ... ";
-        document.getElementById("getResult").style.display = "none";
-    
     }
+
 }
 
 
 var time = setInterval(showTime,1000);
+
+
+
 
 // log out
 
